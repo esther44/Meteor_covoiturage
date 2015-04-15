@@ -1,0 +1,15 @@
+<template name="layout">
+<div class="col-md-12">
+  <div id="header">
+     {{> yield 'navbar'}}
+  </div>
+
+  <div id="main">
+    {{> yield}}
+  </div>
+
+  <div id="footer">
+    {{> yield 'footer'}}
+  </div>
+</div>
+</template>
